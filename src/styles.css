@@ -1,4 +1,61 @@
+:root {
+  --color1: rgba(250, 50, 10, 0.8);
+  --color2: white;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: auto;
+  width: 60%;
+}
+
+h1 {
+  background-color: var(--color1);
+  color: var(--color2);
+  padding: 1rem;
+  font-family: Helvetica Neue, Arial, Sans-Serif;
+}
+
+.itemDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin: 0.5rem 0;
+}
+
+hr {
+  width: 60%;
+}
+
+.listDiv {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+}
+
+.buttonDiv {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 6rem;
+  background-color: var(--color1);
+  color: var(--color2);
+  border: 1px (--color2) solid;
+  border-radius: 0.5rem;
+}
+
+.buttonDiv:hover {
+  color: var(--color1);
+  background-color: var(--color2);
+  border: 1px var(--color1) solid;
+  border-radius: 0.5rem;
 }
